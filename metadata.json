@@ -1,0 +1,6 @@
+{
+  "name": "Maison Éclat — Studio de Beauté à Paris",
+  "description": "La beauté, avec intention. Maison Éclat est un studio parisien dédié aux soins du visage holistiques, rituels apaisants, beauté du regard, manucure minimaliste et accompagnement mariée.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
