@@ -4,7 +4,7 @@
 
 ---
 
-##  Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js** (v20 or later)
@@ -14,7 +14,7 @@
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/maison-eclat.git
+git clone https://github.com/ounnes-dev/maison-eclat.git
 cd maison-eclat
 
 # Install dependencies (pnpm is recommended)
@@ -35,7 +35,7 @@ Open the URL in your browser to see the app live. The server supports hot‑modu
 
 ---
 
-##  Project Structure
+## Project Structure
 ```
 src/
 ├─ assets/          # Static assets (images, fonts)
@@ -51,7 +51,7 @@ src/
 
 ---
 
-##  Testing & Linting
+## Testing & Linting
 ```bash
 # Type‑checking
 npm run lint
@@ -60,7 +60,7 @@ The project uses `tsc` for static type checking.
 
 ---
 
-##  Building for Production
+## Building for Production
 ```bash
 npm run build   # Generates optimized static assets in the /dist folder
 npm run preview # Serves the built app locally for a final check
@@ -68,23 +68,24 @@ npm run preview # Serves the built app locally for a final check
 
 ---
 
-##  Contributing
+## Contributing
 Contributions are welcome! Please:
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your‑feature`).
+2. Create a feature branch (`git checkout -b feature/your-feature`).
 3. Open a pull request with a clear description of your changes.
 
 ---
 
-##  License
+## License
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-##  Roadmap
-- [ ] Add multilingual support (English/French).
-- [ ] Integrate appointment scheduling.
-- [ ] Expand AI‑driven recommendation engine.
+## Roadmap
+- Add multilingual support (English/French).
+- Integrate appointment scheduling.
+- Expand AI‑driven recommendation engine.
 
 ---
 
+> **Note**: This README is a template. Replace any remaining placeholders with the actual values for your project.
