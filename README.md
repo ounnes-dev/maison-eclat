@@ -1,89 +1,110 @@
-# Maison Éclat – Studio de Beauté à Paris
+# Maison Éclat — Premium Beauty Studio Website
 
-[Maison Éclat](https://github.com/ounnes-dev/maison-eclat) is a modern, **React** web application built with **Vite** and **TypeScript**. It showcases a sleek, responsive UI for a beauty studio in Paris, featuring dynamic routing, Tailwind CSS styling, and integration with Google Gemini for AI‑powered features.
+**A refined, responsive website concept for a fictional Parisian beauty and wellness studio.**
+
+[**Live Demo**](https://maison-eclat-rho.vercel.app/) · [**GitHub Repository**](https://github.com/ounnes-dev/maison-eclat)
 
 ---
 
-## Quick Start
+## Overview
+
+Maison Éclat is a premium beauty studio website concept built to demonstrate a polished digital experience for a beauty and wellness business.
+
+The design combines an editorial visual identity, warm neutral colors, elegant typography, and intuitive navigation to present treatments and guide visitors through an appointment inquiry experience.
+
+The website is written in French and uses a fictional Parisian studio identity.
+
+## Features
+
+- **Responsive design:** Layouts designed for desktop and mobile screens.
+- **Homepage:** Brand introduction, visual identity, and prominent calls to action.
+- **Treatment catalogue:** Organized service categories, descriptions, durations, and pricing.
+- **Individual service pages:** Dedicated information about selected treatments.
+- **Appointment inquiry:** Interactive form with input validation and a local demonstration preview.
+- **Additional pages:** Studio information, bridal services, and contact details.
+- **Client-side navigation:** Multiple pages with React Router.
+- **Deployment:** Public live demo hosted on Vercel.
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| React | User interface |
+| TypeScript | Application logic and type safety |
+| Vite | Development server and build tooling |
+| Tailwind CSS | Styling and responsive layouts |
+| React Router | Client-side navigation |
+| Lucide React | Interface icons |
+| Git & GitHub | Version control and source code hosting |
+| Vercel | Deployment and hosting |
+
+## Getting Started
 
 ### Prerequisites
-- **Node.js** (v20 or later)
-- **pnpm** (recommended) or npm/yarn
-- A **Gemini API key** (for AI features)
+
+- Node.js (20.19+ or a compatible newer release)
+- npm
 
 ### Installation
+
+Clone the repository:
+
 ```bash
-# Clone the repository
 git clone https://github.com/ounnes-dev/maison-eclat.git
 cd maison-eclat
-
-# Install dependencies (pnpm is recommended)
-pnpm install   # or `npm install`
 ```
 
-### Environment
-Create a `.env.local` file at the project root and add your Gemini API key:
-```dotenv
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
-```
+Install dependencies:
 
-### Development Server
 ```bash
-npm run dev   # Starts Vite on http://localhost:3000
-```
-Open the URL in your browser to see the app live. The server supports hot‑module reloading for rapid development.
-
----
-
-## Project Structure
-```
-src/
-├─ assets/          # Static assets (images, fonts)
-├─ components/      # Re‑usable React components
-├─ config/          # Configuration files (Tailwind, Vite)
-├─ data/            # Sample data used by the UI
-├─ pages/           # Route‑level components
-├─ types/           # TypeScript type definitions
-├─ utils/           # Helper utilities
-├─ App.tsx          # Root component
-├─ main.tsx         # Application entry point
+npm install --legacy-peer-deps
 ```
 
----
+### Run locally
 
-## Testing & Linting
+Start the development server:
+
 ```bash
-# Type‑checking
+npm run dev
+```
+
+Open the local address displayed in your terminal (by default, `http://localhost:3000`).
+
+### Production build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+### Type checking
+
+Run TypeScript checks:
+
+```bash
 npm run lint
 ```
-The project uses `tsc` for static type checking.
 
----
+## Project Scope
 
-## Building for Production
-```bash
-npm run build   # Generates optimized static assets in the /dist folder
-npm run preview # Serves the built app locally for a final check
-```
+This project demonstrates web design and frontend development, including responsive layouts, reusable interface components, client-side interactions, routing, and deployment.
 
----
+The appointment form is a frontend demonstration: it validates user input locally and generates a preview. It does **not** transmit booking requests to a business, connect to a booking database, or confirm real appointments.
 
-## Contributing
-Contributions are welcome! Please:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/your-feature`).
-3. Open a pull request with a clear description of your changes.
+## Project Links
 
----
+- **Live Website:** https://maison-eclat-rho.vercel.app/
+- **Source Code:** https://github.com/ounnes-dev/maison-eclat
 
-## License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+## Disclaimer
 
----
+Maison Éclat is a fictional concept project created for portfolio and demonstration purposes. It is not a real business, and the website was not commissioned by an actual beauty studio.
 
-## Roadmap
-- Add multilingual support (English/French).
-- Integrate appointment scheduling.
-- Expand AI‑driven recommendation engine.
-
----
+The business identity, address, contact details, services, and operating information are illustrative. No real appointments or customer inquiries are processed through the demonstration website.
