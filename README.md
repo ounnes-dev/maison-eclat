@@ -87,5 +87,3 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 - Expand AI‑driven recommendation engine.
 
 ---
-
-> **Note**: This README is a template. Replace any remaining placeholders with the actual values for your project.
